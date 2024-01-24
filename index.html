@@ -34,7 +34,7 @@
 <body>
    <header class="container mx-auto">
         <!-- navbar -->
-        <nav class=" my-14 flex flex-col lg:flex-row justify-around items-center">
+        <!-- <nav class=" my-14 flex flex-col lg:flex-row justify-around items-center">
             <a href="" class="mb-4"><img src="images/logo2.png" alt=""></a>
             <div class="poppins-font font-normal grid grid-cols-3 lg:grid-cols-5 gap-6 ml-5 lg:ml-0">
                 <a href="">Home</a>
@@ -44,7 +44,37 @@
                 <a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
             </div>
             <button class="btn btn-primary px-7 mt-4 border-none">Free Consultation</button>
-        </nav>
+        </nav> -->
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <a href=""><span class="text-[#B68C5A]">Home</span></a>
+                <a href="">Services <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="">Cases <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
+                <a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl"><img src="images/logo2.png" alt=""></a>
+          </div>
+          <div class="navbar-center hidden lg:flex gap-6">
+            <ul class="menu menu-horizontal px-1 *:mx-2">
+              <a href=""><span class="text-[#B68C5A]">Home</span></a>
+              <a href="">Services <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="">Cases <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
+              <a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button class="btn bg-[#B68C5A] text-white lg:btn-primary px-7 mt-4 border-none">Free Consultation</button>
+          </div>
+        </div>
+
         <!-- background and description -->
         <div class="hero lg:w-full h-[650px] rounded-xl" style="background-image: url(images/banner.png)">
             <div class="hero-overlay "></div>
@@ -179,7 +209,7 @@
                     </div>
                     <h1 class="mb-5 text-2xl font-extrabold">Ataur Samnan</h1>
                     <h4 class="-mt-4 mb-8 poppins-font">UIX Designer</h4>
-                    <p class="mb-5 poppins-font">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    <p class="mb-5 poppins-font px-12">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                   </div>
                 </div>
               </div>
@@ -198,8 +228,8 @@
                       <img src="images/samrin.jpg" alt="" class="size-20">
                     </div>
                     <h1 class="mb-5 text-2xl font-extrabold ">Samrin Tanzum</h1>
-                    <h4 class="-mt-4 mb-8 poppins-font">Lawyer</h4>
-                    <p class="mb-5 poppins-font">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    <h4 class="-mt-4 mb-8 poppins-font">Actress</h4>
+                    <p class="mb-5 poppins-font px-12">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                   </div>
                 </div>
               </div>
@@ -219,7 +249,7 @@
                     </div>
                     <h1 class="mb-5 text-2xl font-extrabold ">Awlad Hossain</h1>
                     <h4 class="-mt-4 mb-8 poppins-font">UIX Designer</h4>
-                    <p class="mb-5 poppins-font">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                    <p class="mb-5 poppins-font px-12">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                   </div>
                 </div>
               </div>
@@ -323,7 +353,7 @@
                      </div>         
                  </div> 
               <!-- third area -->
-                 <div class=" card px-6 py-6 rounded-none lg:border-r-2  border-[#E7E7E7]">
+                 <div class=" card px-6 py-6 rounded-none lg:border-r-2 lg:border-b-0 border-b-2  border-[#E7E7E7]">
                      <figure class=" pt-10 ">
                        <img src="images/email.png" alt="" class="rounded-xl" />
                        </figure>
@@ -346,8 +376,40 @@
           </div>
         </section>
    </main>
-   <footer>
-
-   </footer>
+   <footer class="footer p-10 bg-[#111] text-white container mx-auto">
+      <nav class="">
+        <header class="mt-12 lg:mt-32 mb-4"><img src="images/logo2.png" alt=""></header> 
+        <p class="mb-36">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+      </nav> 
+      <nav>
+        <header class="footer-title lg:mt-32 mb-4">Useful Link</header> 
+        <a class="link link-hover mb-4">Homes</a>
+        <a class="link link-hover mb-4">About us</a>
+        <a class="link link-hover mb-4">Cases</a>
+        <a class="link link-hover mb-4">Blog</a>
+        <a class="link link-hover mb-4">Contact Us</a>
+      </nav> 
+      <nav>
+        <header class="footer-title mt-12 lg:mt-32 mb-4">Contact Now</header> 
+        <p class="mb-4">555 4th 5t NW, Washington <br>
+          DC 20530, United States</p>
+        <p class="mb-4">+88 01750 000 000 <br>
+          +88 01750 000 000</p>
+        <p>info@gmail.com <br>
+          info@gmail.com</p>    
+      </nav> 
+      <form>
+        <header class="footer-title mt-12 lg:mt-32 mb-4">Subscribe</header> 
+        <fieldset class="form-control w-80">
+          <label class="label mb-8">
+            <span class="">Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="Email Address" class="input input-bordered join-item" /> 
+            <button class="btn btn-primary join-item border-none"><i class="fa-brands fa-telegram"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
 </body>
 </html>
